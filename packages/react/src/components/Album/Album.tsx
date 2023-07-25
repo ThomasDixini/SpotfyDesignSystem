@@ -5,9 +5,9 @@ import nuvem2 from '../../assets/cloud.svg'
 
 export interface AlbumProps extends ComponentProps<typeof AlbumContainer> { }
 
-export function Album() {
+export function Album({ size }: AlbumProps) {
     return (
-        <AlbumContainer>
+        <AlbumContainer size={size}>
             <PlaylistImageItem>
                 <img src={nuvem2} alt="" />
                 <img src="https://source.unsplash.com/random" alt="Imagem da Playlist" />
