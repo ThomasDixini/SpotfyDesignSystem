@@ -1,4 +1,5 @@
 {
   "extends": "../tsconfig/react.json",
-  "include": ["src"]
+  "include": ["src"],
+  "files": ["global.d.ts"]
 }
