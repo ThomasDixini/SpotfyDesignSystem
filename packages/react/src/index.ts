@@ -1,1 +1,1 @@
-console.log('Ok')
+export * from '../src/components/Album/Album'

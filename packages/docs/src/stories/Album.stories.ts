@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from '@storybook/react'
-import { Album, AlbumProps } from '../../../react/src/components/Album/Album';
+import { Album, AlbumProps } from 'spotreact';
 
 export default {
   title: 'Example/Album',
