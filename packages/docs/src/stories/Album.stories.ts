@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react'
 import { Album, AlbumProps } from 'spotreact';
 
 export default {
-  title: 'Example/Album',
+  title: 'Home/Album',
   component: Album,
   parameters: {
     layout: 'centered',
