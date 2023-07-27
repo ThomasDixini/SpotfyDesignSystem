@@ -70,6 +70,7 @@ export const PlaylistImageItem = styled('div', {
     position: 'relative',
     overflow: 'hidden',
     maxWidth: '190px',
+    boxShadow: '2px 2px 20px rgb(0,0,0)',
     'img:first-child': {
         position: 'absolute',
         transform: 'rotateX(20deg) translateY(calc(60%))',
